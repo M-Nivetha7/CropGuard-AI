@@ -67,9 +67,8 @@ Copy code
 ```
 streamlit run app.py
 ```
-```
+
 Open your browser at http://localhost:8501 to access the portal.
-```
 
 📸 How It Works
 Farmer logs in via the login page
