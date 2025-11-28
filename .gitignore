@@ -1,0 +1,7 @@
+uploaded_images/
+*.mp4
+*.zip
+*.h5
+*.pt
+*.pth
+__pycache__/
