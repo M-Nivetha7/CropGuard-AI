@@ -33,7 +33,8 @@ CropGuard-AI/
 │   ├── predict.py
 ├── uploaded_images/         # Images uploaded by farmers (ignored in git)
 ├── requirements.txt         # Python dependencies
-└── README.md
+└── README.md```
+
 Note: uploaded_images/ contains user-uploaded images and should be added to .gitignore to avoid pushing heavy files.
 
 🛠️ Tech Stack
