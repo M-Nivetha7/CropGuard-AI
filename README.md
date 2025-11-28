@@ -90,14 +90,20 @@ Geolocation-based disease outbreak alerts
 
 Voice-based UI for easier accessibility
 
+---
+
 # Team 🧑‍💻 
 
 M Nivetha – Project Lead, ML & Backend
 
 Ramya – Frontend & UI Design
 
+---
+
 ⭐ Support
 If you like this project, give it a ⭐ on GitHub! Contributions and suggestions are welcome.
+
+---
 
 🔒 License
 This project is currently unlicensed. Use for educational purposes only.
