@@ -20,20 +20,22 @@
 
 ## 🗂️ Project Structure
 
-```bash
-CropGuard-AI/
-├── app.py                   # Main Streamlit app
-├── assets/                  # Images, logos, and UI assets
-│   └── logo.png
-├── model/                   # ML model files
-│   └── plant_disease_model.h5
-├── pages/                   # Streamlit pages
-│   ├── login.py
-│   ├── dashboard.py
-│   ├── predict.py
-├── uploaded_images/         # Images uploaded by farmers (ignored in git)
-├── requirements.txt         # Python dependencies
-└── README.md```
+```
+bash
+CropGuard-AI/ 🌱
+├── app.py                   # 🖥️ Main Streamlit application
+├── assets/                  # 🎨 UI assets like images and logos
+│   └── logo.png             # 🌟 Project logo
+├── model/                   # 🤖 Machine Learning model files
+│   └── plant_disease_model.h5  # 📊 Pre-trained crop disease model
+├── pages/                   # 🗂️ Streamlit page modules
+│   ├── login.py             # 🔐 Login page
+│   ├── dashboard.py         # 📊 Farmer dashboard
+│   ├── predict.py           # 🩺 Crop disease prediction page
+├── uploaded_images/         # 📷 User-uploaded leaf images (ignored in git)
+├── requirements.txt         # 📦 Python dependencies
+└── README.md                # 📝 Project README
+```
 
 Note: uploaded_images/ contains user-uploaded images and should be added to .gitignore to avoid pushing heavy files.
 
@@ -49,17 +51,25 @@ Deployment	Local / GitHub
 1. Clone the Repository
 bash
 Copy code
+```
 git clone https://github.com/M-Nivetha7/CropGuard-AI.git
+```
 cd CropGuard-AI
-2. Install Dependencies
+3. Install Dependencies
 bash
 Copy code
+```
 pip install -r requirements.txt
-3. Run the Application
+```
+4. Run the Application
 bash
 Copy code
+```
 streamlit run app.py
+```
+```
 Open your browser at http://localhost:8501 to access the portal.
+```
 
 📸 How It Works
 Farmer logs in via the login page
@@ -92,17 +102,10 @@ If you like this project, give it a ⭐ on GitHub! Contributions and suggestions
 🔒 License
 This project is currently unlicensed. Use for educational purposes only.
 
-yaml
+📸 Screenshots / Demo
+You can add images or GIFs here to showcase your app:
+
+markdown
 Copy code
-
----
-
-If you want, I can also **add a small GIF demo section**, **colorful badges**, and make the **dashboard screenshot preview** appear directly in the README. This makes it look extremely professional and interactive.  
-
-Do you want me to do that next?
-
-
-
-
-
-
+![Dashboard Screenshot](assets/dashboard.png)
+![Prediction Demo GIF](assets/demo.gif)
