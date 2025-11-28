@@ -100,11 +100,3 @@ If you like this project, give it a ⭐ on GitHub! Contributions and suggestions
 
 🔒 License
 This project is currently unlicensed. Use for educational purposes only.
-
-📸 Screenshots / Demo
-You can add images or GIFs here to showcase your app:
-
-markdown
-Copy code
-![Dashboard Screenshot](assets/dashboard.png)
-![Prediction Demo GIF](assets/demo.gif)
